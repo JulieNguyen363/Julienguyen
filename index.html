@@ -1,11 +1,1052 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your GitHub Page</title>
-</head>
-<body>
-    <h1>Hello, GitHub Pages!</h1>
-</body>
-</html>
+total 64
+-rw-r--r--   1 nguyendung  staff   1069 Mar 11 16:32 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 16:20 assets
+-rw-r--r--   1 nguyendung  staff  11614 Mar 11 16:32 index.html
+-rw-r--r--   1 nguyendung  staff   2895 Mar 11 16:20 posts_and_slides.html
+-rw-r--r--   1 nguyendung  staff    434 Mar 11 16:20 resume.html
+-rw-r--r--   1 nguyendung  staff    892 Mar 11 16:20 slides.html
+-rw-r--r--   1 nguyendung  staff   3271 Mar 11 16:20 teaching.html
+(base) nguyendung@Nguyens-MacBook-Pro Julienguyen % cd ..
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % cd ..
+(base) nguyendung@Nguyens-MacBook-Pro ~ % ls
+total 93552
+drwx------@   3 nguyendung  staff        96 Aug 21  2022 Applications
+-rw-r--r--    1 nguyendung  staff     99283 Apr 20  2023 C5o-pen8ortho.gro
+-rw-r--r--    1 nguyendung  staff    212224 Apr 20  2023 C5o-pen8ortho.pdb
+-rw-r--r--    1 nguyendung  staff    703866 Apr 19  2023 C5o-traj-nonrestraint.pdb
+-rw-r--r--    1 nguyendung  staff   6915468 Apr 18  2023 C5o-traj.pdb
+-rw-r--r--    1 nguyendung  staff      2462 Dec 14 15:38 CS_state_0_snapshot_0.pkl
+drwx------@ 188 nguyendung  staff      6016 Mar 11 16:25 Desktop
+drwx------@  35 nguyendung  staff      1120 Jan 16 14:16 Documents
+drwx------@ 117 nguyendung  staff      3744 Mar 11 16:27 Downloads
+drwx------@  92 nguyendung  staff      2944 Oct 16 13:52 Library
+drwx------    7 nguyendung  staff       224 Nov 13 17:12 Movies
+drwx------+   4 nguyendung  staff       128 Aug 29  2022 Music
+lrwxr-xr-x    1 nguyendung  staff        64 Aug 19  2022 OneDrive -> /Users/nguyendung/Library/CloudStorage/OneDrive-TempleUniversity
+lrwxr-xr-x    1 nguyendung  staff        64 Aug 24  2022 OneDrive - Temple University -> /Users/nguyendung/Library/CloudStorage/OneDrive-TempleUniversity
+drwx------+   4 nguyendung  staff       128 Aug 18  2022 Pictures
+drwxr-xr-x+   4 nguyendung  staff       128 Aug 18  2022 Public
+-rw-r--r--    1 nguyendung  staff  21755709 Jan 22 17:07 Untitled.ipynb
+-rw-r--r--    1 nguyendung  staff    181584 Jul  7  2023 Untitled1.ipynb
+-rw-r--r--    1 nguyendung  staff      1339 Jul 11  2023 Untitled2.ipynb
+-rw-r--r--    1 nguyendung  staff    699392 Jan 30 18:20 Untitled3.ipynb
+drwxr-xr-x   12 nguyendung  staff       384 Mar  1 22:21 Zotero
+drwxr-xr-x    3 nguyendung  staff        96 Jan 30  2023 build
+-rw-r--r--    1 nguyendung  staff     98860 Apr 20  2023 complex.gro
+drwxr-xr-x   11 nguyendung  staff       352 Apr 21  2023 copy-temperary
+drwxr-xr-x   12 nguyendung  staff       384 Mar 11 13:47 git
+-rw-------    1 nguyendung  staff      1469 Feb 13  2023 nohup.out
+drwxr-xr-x    3 nguyendung  staff        96 Aug 19  2022 opt
+-rw-r--r--    1 nguyendung  staff      1127 Aug 19  2022 p16978_halogen_distances.py
+-rw-r--r--    1 nguyendung  staff      2632 Dec 14 16:03 random_.py
+-rw-r--r--    1 nguyendung  staff      9981 Dec 14 15:16 reindent.py
+drwxr-xr-x    3 nguyendung  staff        96 Jan 30  2023 src
+-rw-r--r--@   1 nguyendung  staff     26545 Jan 12 16:08 svg.svg
+-rw-r--r--    1 nguyendung  staff      1166 Oct  2 15:01 vmdrc
+-rw-r--r--@   1 nguyendung  staff  17146098 Oct  3 10:25 vmdscene.tga
+(base) nguyendung@Nguyens-MacBook-Pro ~ % git clone https://github.com/JulieNguyen363/julienguyen363.github.io.git
+Cloning into 'julienguyen363.github.io'...
+remote: Enumerating objects: 156, done.
+remote: Counting objects: 100% (45/45), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 156 (delta 11), reused 43 (delta 10), pack-reused 111
+Receiving objects: 100% (156/156), 102.55 MiB | 20.79 MiB/s, done.
+Resolving deltas: 100% (33/33), done.
+(base) nguyendung@Nguyens-MacBook-Pro ~ % ls
+total 93552
+drwx------@   3 nguyendung  staff        96 Aug 21  2022 Applications
+-rw-r--r--    1 nguyendung  staff     99283 Apr 20  2023 C5o-pen8ortho.gro
+-rw-r--r--    1 nguyendung  staff    212224 Apr 20  2023 C5o-pen8ortho.pdb
+-rw-r--r--    1 nguyendung  staff    703866 Apr 19  2023 C5o-traj-nonrestraint.pdb
+-rw-r--r--    1 nguyendung  staff   6915468 Apr 18  2023 C5o-traj.pdb
+-rw-r--r--    1 nguyendung  staff      2462 Dec 14 15:38 CS_state_0_snapshot_0.pkl
+drwx------@ 188 nguyendung  staff      6016 Mar 11 16:25 Desktop
+drwx------@  35 nguyendung  staff      1120 Jan 16 14:16 Documents
+drwx------@ 117 nguyendung  staff      3744 Mar 11 16:27 Downloads
+drwx------@  92 nguyendung  staff      2944 Oct 16 13:52 Library
+drwx------    7 nguyendung  staff       224 Nov 13 17:12 Movies
+drwx------+   4 nguyendung  staff       128 Aug 29  2022 Music
+lrwxr-xr-x    1 nguyendung  staff        64 Aug 19  2022 OneDrive -> /Users/nguyendung/Library/CloudStorage/OneDrive-TempleUniversity
+lrwxr-xr-x    1 nguyendung  staff        64 Aug 24  2022 OneDrive - Temple University -> /Users/nguyendung/Library/CloudStorage/OneDrive-TempleUniversity
+drwx------+   4 nguyendung  staff       128 Aug 18  2022 Pictures
+drwxr-xr-x+   4 nguyendung  staff       128 Aug 18  2022 Public
+-rw-r--r--    1 nguyendung  staff  21755709 Jan 22 17:07 Untitled.ipynb
+-rw-r--r--    1 nguyendung  staff    181584 Jul  7  2023 Untitled1.ipynb
+-rw-r--r--    1 nguyendung  staff      1339 Jul 11  2023 Untitled2.ipynb
+-rw-r--r--    1 nguyendung  staff    699392 Jan 30 18:20 Untitled3.ipynb
+drwxr-xr-x   12 nguyendung  staff       384 Mar  1 22:21 Zotero
+drwxr-xr-x    3 nguyendung  staff        96 Jan 30  2023 build
+-rw-r--r--    1 nguyendung  staff     98860 Apr 20  2023 complex.gro
+drwxr-xr-x   11 nguyendung  staff       352 Apr 21  2023 copy-temperary
+drwxr-xr-x   12 nguyendung  staff       384 Mar 11 13:47 git
+drwxr-xr-x   11 nguyendung  staff       352 Mar 11 17:03 julienguyen363.github.io
+-rw-------    1 nguyendung  staff      1469 Feb 13  2023 nohup.out
+drwxr-xr-x    3 nguyendung  staff        96 Aug 19  2022 opt
+-rw-r--r--    1 nguyendung  staff      1127 Aug 19  2022 p16978_halogen_distances.py
+-rw-r--r--    1 nguyendung  staff      2632 Dec 14 16:03 random_.py
+-rw-r--r--    1 nguyendung  staff      9981 Dec 14 15:16 reindent.py
+drwxr-xr-x    3 nguyendung  staff        96 Jan 30  2023 src
+-rw-r--r--@   1 nguyendung  staff     26545 Jan 12 16:08 svg.svg
+-rw-r--r--    1 nguyendung  staff      1166 Oct  2 15:01 vmdrc
+-rw-r--r--@   1 nguyendung  staff  17146098 Oct  3 10:25 vmdscene.tga
+(base) nguyendung@Nguyens-MacBook-Pro ~ % cd git
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % git pull https://github.com/JulieNguyen363/Julienguyen363.git
+fatal: not a git repository (or any of the parent directories): .git
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % git clone https://github.com/JulieNguyen363/julienguyen363.github.io.git
+Cloning into 'julienguyen363.github.io'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), 13.03 KiB | 4.34 MiB/s, done.
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x   5 nguyendung  staff   160 Mar 11 17:25 julienguyen363.github.io
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % cd julienguyen363.github.io
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 80
+-rw-r--r--  1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--  1 nguyendung  staff    455 Mar 11 17:25 README.md
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % cp -r ../Julienguyen/assets .
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % cp ../Julienguyen/index.html .
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11614 Mar 11 17:26 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11614 Mar 11 17:26 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git add .
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git commit -m 'cp index.html'
+[main 86b1446] cp index.html
+ Committer: Nguyen Dung <nguyendung@bc-d0-74-2b-cb-f6.wireless.temple.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 36 files changed, 70134 insertions(+)
+ create mode 100644 assets/.DS_Store
+ create mode 100644 assets/.ipynb_checkpoints/Resume-checkpoint.ipynb
+ create mode 100644 assets/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+ create mode 100644 assets/cal.html
+ create mode 100644 assets/css/custom.scss
+ create mode 100644 assets/css/theme.css
+ create mode 100644 assets/cv.html
+ create mode 100644 assets/fonts/casper-icons.eot
+ create mode 100644 assets/fonts/casper-icons.svg
+ create mode 100644 assets/fonts/casper-icons.ttf
+ create mode 100644 assets/fonts/casper-icons.woff
+ create mode 100644 assets/images/.DS_Store
+ create mode 100644 assets/images/ACS.jpg
+ create mode 100644 assets/images/DSCF0309.png
+ create mode 100644 assets/images/GuyAllen_2019.jpg
+ create mode 100755 assets/images/Pratip_BDAY_2019.jpg
+ create mode 100644 assets/images/THE.jpg
+ create mode 100644 assets/images/background_image
+ create mode 100644 assets/images/eigenspikers_03_07_2019.jpg
+  1 <!DOCTYPE html>
+  2 <html lang="en">
+  3 <head>
+  4 <meta charset="utf-8">
+  5 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  6 <link rel="icon" href="/assets/images/favicon.png">
+  7 <title>Dai Q. Ho | Dai Ho</title>
+  8 <!-- Begin Jekyll SEO tag v2.8.0 -->
+  9 <title>Dai Q. Ho | Dai Ho</title>
+ 10 <meta name="generator" content="Jekyll v3.9.2" />
+ 11 <meta property="og:title" content="Dai Q. Ho" />
+ 12 <meta property="og:locale" content="en_US" />
+ 13 <meta name="description" content="Pages to view my work." />
+ 14 <meta property="og:description" content="Pages to view my work." />
+ 15 <link rel="canonical" href="https://JulieNguyen363.github.io/" />
+ 16 <meta property="og:url" content="https://JulieNguyen363.github.io/" />
+ 17 <meta property="og:site_name" content="Dai Ho" />
+ 18 <meta property="og:type" content="website" />
+ 19 <meta name="twitter:card" content="summary" />
+ 20 <meta property="twitter:title" content="Dai Ho" />
+ 21 <script type="application/ld+json">
+ 23 <!-- End Jekyll SEO tag -->
+ 24
+ 26 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 27 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+ 28 <link href="/assets/css/theme.css" rel="stylesheet">
+ 29 <link href="/assets/css/custom.css" rel="stylesheet">
+ 30
+ 31
+ 32
+ 33
+ 34 <!-- Google Analytics -->
+ 35 <script>
+ 36   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 37   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 38   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 39   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 40
+ 41   ga('create', 'UA-143385454-1', 'auto');
+ 42   ga('send', 'pageview');
+ 43 </script>
+ 44
+ 45
+ 46 </head>
+ 47
+ 48
+ 49
+ 50
+ 51 <body class="layout-default">
+ 52
+ 53
+ 54 <!-- Begin Menu Navigation
+ 55 ================================================== -->
+ 56 <header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+ 57     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+ 58     <span class="navbar-toggler-icon"></span>
+ 59     </button>
+ 60     <div class="container">
+ 61
+ 62         <!-- Begin Logo -->
+ 63         <div class="navbar-brand" href="/">
+ 64                 <h4><a href="/index.html">Dai Ho</a></h4>
+ 65         <!--<img src="/assets/images/logo.png" alt="Rob Raddi">-->
+ 66         </div>
+ 67         <!-- End Logo -->
+ 68
+ 69         <!-- Begin Menu -->
+ 70         <div class="collapse navbar-collapse" id="navbarsWow">
+ 71
+ 72             <!-- Begin Menu -->
+ 73             <ul class="navbar-nav ml-auto">
+ 74                 <!--
+ 75                 <li class="nav-item">
+ 76                     <a class="nav-link" href="/about">About</a>
+ 77                 </li>
+ 78                 -->
+ 79                 <li class="nav-item dropdown">
+ 80                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+ 81                     <div class="dropdown-menu" aria-labelledby="dropdown01">
+ 82                     <a class="nav-link" href="/">Projects</a>
+ 83                     <a class="nav-link" href="/">Publications</a>
+ 84                     </div>
+ 85                 </li>
+ 86
+ 87                 <li class="nav-item">
+ 88                     <a class="nav-link" href="/teaching.html">Teaching</a>
+ 89                 </li>
+ 90
+ 91                 <li class="nav-item dropdown">
+ 92                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software</a>
+ 93                     <div class="dropdown-menu" aria-labelledby="dropdown01">
+ 94                     <a class="nav-link" href="https://biceps.readthedocs.io/en/latest/" target="_blank">BICePs</a>
+ 95                     <a class="nav-link" href="/SymPyVolume/index.html" target="_blank">SymPyVolume</a>
+ 96                     <a class="nav-link" href="/Weather.html" target="_blank">Weather Prediction</a>
+ 97                     </div>
+ 98                 </li>
+ 99
+100                 <li class="nav-item">
+101                     <a class="nav-link" href="/posts_and_slides.html">Posts/Slides</a>
+102                 </li>
+103                 <!--<li class="nav-item">
+104                     <a class="nav-link" href="/about.html">About</a>
+105                 </li>-->
+106                 <li class="nav-item">
+107                     <a target="_blank" class="nav-link" href="https://github.com/JulieNguyen363">Github</a>
+108                 </li>
+109
+110
+111                 <!--
+112                 <li class="nav-item">
+113                     <a class="nav-link highlight" href="https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip">Download Theme</a>
+114                 </li>
+115                 -->
+116
+117             </ul>
+118             <!-- End Menu -->
+119
+120         </div>
+121     </div>
+122 </header>
+123
+124
+125
+126 <!-- End Menu Navigation
+127 ================================================== -->
+128
+129 <div class="site-content">
+130
+131     <div class="container">
+132
+133     <!-- Site Title
+134     ================================================== -->
+135
+136     <div class="mainheading" style="display:none;">
+137         <h1 class="sitetitle">Dai Ho</h1>
+138         <p class="lead">
+139              Pages to view my work.
+140         </p>
+141     </div>
+142
+143
+144     <!-- Content
+145     ================================================== -->
+146     <div class="main-content">
+147         <!-- Home Jumbotron
+148 ================================================== -->
+149 <section class="intro full-width">
+150     <style>
+151     .wrapintro{
+152             text-align: justify;
+153     }
+154     </style>
+155     <div class="wrapintro">
+156         <!--<h1>Dai Ho</h1>-->
+157         <!--<h2 class="lead">Header</h2>-->
+158         <p style="text-align:justify;font-size:100%;">
+159             <figure>
+160                 <img src="/assets/images/DSCF1976.JPG" height="20%" width="20%" align="left" hspace="10px">
+161             </figure>
+162             I'm a biohysicist.... Currently, I work in the
+163             <a href="http://www.voelzlab.org">Voelz Lab</a> as a graduate research
+164             assistant in pursuit of obtaining a Ph.D. in Theoretical/Physical Chemistry from
+165             <a href="https://chem.cst.temple.edu">Temple University</a>.
+166         </p>
+167     </div>
+168 </section>
+169
+170
+171 <!--
+172 <div class="section-title h2">Reseach:</div>
+173 <div class="wrapintro1">
+174
+175     <h3> Confrences: </h3>
+176     <ul>
+177         <li style="list-style-type: none;"><h5> Poster sessions:</h5></li>
+178         <ul>
+179             <li style="list-style-type: none;"> - Annual Biophysical Society meeting 2018</li>
+180             <li style="list-style-type: none;"> - American Chemical Society 2018</li>
+181             <li style="list-style-type: none;"> - Poster session - Annual Biophysical Society meeting 2020</li>
+182             <li style="list-style-type: none;"> - American Chemical Society 2020</li>
+183         </ul>
+184         <li style="list-style-type: none;"><h5>Talks:</h5></li>
+185     </ul>
+186 </div>
+187 -->
+188
+189
+190 <!--
+191 <p style="text-align:justify;font-size:100%;">Please see my research tab
+192 to view my current projects.  The teaching tab contains Jupyter notebooks
+193 of courses that I teach as well as an assortment of helpful notebooks for
+194 python lessons.
+195 </p>
+196 -->
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207     </div>
+208
+209     </div><!-- /.container -->
+210
+211
+212
+213     <!-- Before Footer
+214     ================================================== -->
+215     <div class="beforefooter">
+216         <div class="container">
+217             <div class="row justify-content-center">
+218                 <!--
+219                 <div class="col-md-8">Hello</div>
+220                 <div class="col-md-4 text-right footersocial">
+221                     <h5>Follow me</h5>
+222                     <i class="fa fa-github"></i>
+223                 -->
+224                 </div>
+225             </div>
+226         </div>
+227     </div>
+228
+229     <!-- Begin Footer
+230     ================================================== -->
+231     <footer class="footer">
+232
+233         <div class="container">
+234
+235             <div class="row">
+236                 <div class="col-sm-3">
+237                 <div class="footer-widget">
+238                 <!--
+239                     <a href="/contact">
+240                             <img src="/assets/images/logo-footer.png">
+241                 </a>
+242                 -->
+243
+244                 <!-- Contact information -->
+245                 <p>Mailing Address:<br>
+246                 1901 N. 13th St.<br>
+247                 Beury Hall Room 102<br>
+248                 Temple University,<br>
+249                 Philadelphia, PA 19122<br>
+250                 </p>
+251
+252
+253                 </div>
+254                 </div>
+255
+256                 <div class="col-sm-4">
+257                 <div class="footer-widget">
+258                         <!--<h5 class="title"></h5>-->
+259                 <h5 class="title">Contact Info:</h5>
+260                 <ul>
+261                 <li>Office: Beury Hall, Room 102</li>
+262                 <li>Email: <a target="_blank" href="tun50867@temple.edu">tun50867@temple.edu</a></li>
+263                 <li>GitHub: <a target="blank" href="https://github.com/julienguyen363">https://github.com/julienguyen363</a></li>
+264                 <li>LinkedIn: <a target="blank" href="https://www.linkedin.com/in/julienguyen">https://www.linkedin.com/in/thi-dung-nguyen-8a3366141/</a></li>
+265                 </ul>
+266                 </div>
+267                 </div>
+268
+269                 <div class="col-sm-4">
+270                 <div class="footer-widget">
+273                 <p style="text-align:left;font-size:100%;">
+274                 <ul>
+275                         <li><a href="/resume.html" target="_blank">Resume</a></li>
+276                         <!--<li><a href="/notes.html" target="_blank">Notes</a></li>-->
+277                 </ul>
+278                     <br>
+279                 </div>
+280                 </div>
+281
+282                 <!--
+ 60     <div class="container">
+ 61
+ 62         <!-- Begin Logo -->
+ 63         <div class="navbar-brand" href="/">
+ 64                 <h4><a href="/index.html">Dai Ho</a></h4>
+ 65         <!--<img src="/assets/images/logo.png" alt="Rob Raddi">-->
+ 66         </div>
+ 67         <!-- End Logo -->
+ 68
+ 69         <!-- Begin Menu -->
+ 70         <div class="collapse navbar-collapse" id="navbarsWow">
+ 71
+ 72             <!-- Begin Menu -->
+ 73             <ul class="navbar-nav ml-auto">
+ create mode 100644 assets/images/ethics_2019.jpg
+ create mode 100644 assets/images/favicon.ico
+ create mode 100644 assets/images/head.jpg
+ create mode 100644 assets/images/logo-footer.png
+ create mode 100644 assets/images/logo.png
+ create mode 100644 assets/js/ie10-viewport-bug-workaround.js
+ create mode 100644 assets/js/jquery.min.js
+ create mode 100644 assets/js/masonry.pkgd.min.js
+ create mode 100644 assets/js/share.js
+ create mode 100644 assets/js/theme.js
+ create mode 100644 assets/resume.html
+ create mode 100644 assets/resume.pdf
+ create mode 100644 assets/resume_backup.html
+ create mode 100644 assets/resume_backup_with_timeline.html
+ create mode 100644 assets/resume_with_timeline.html
+ create mode 100755 assets/watch.rb
+ create mode 100644 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git push
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (43/43), 93.63 MiB | 15.32 MiB/s, done.
+Total 43 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File assets/images/DSCF0309.png is 88.41 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/JulieNguyen363/julienguyen363.github.io.git
+   e300e38..86b1446  main -> main
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % l
+szsh: command not found: l
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11614 Mar 11 17:26 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11614 Mar 11 17:26 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11614 Mar 11 17:26 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % cd index.html
+cd: not a directory: index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % vi index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+  1 <!DOCTYPE html>
+  2 <html lang="en">
+  3 <head>
+  4 <meta charset="utf-8">
+  5 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 23 <!-- End Jekyll SEO tag -->
+ 24
+ 26 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 27 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+ 28 <link href="/assets/css/theme.css" rel="stylesheet">
+ 29 <link href="/assets/css/custom.css" rel="stylesheet">
+ 30
+ 31
+ 32
+ 33
+ 34 <!-- Google Analytics -->
+ 35 <script>
+ 36   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 37   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 38   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 39   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 40
+ 41   ga('create', 'UA-143385454-1', 'auto');
+ 42   ga('send', 'pageview');
+ 43 </script>
+ 44
+ 45
+ 46 </head>
+ 47
+ 48
+ 49
+ 50
+ 51 <body class="layout-default">
+ 52
+ 53
+ 54 <!-- Begin Menu Navigation
+ 55 ================================================== -->
+ 56 <header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+ 57     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+ 58     <span class="navbar-toggler-icon"></span>
+ 59     </button>
+ 60     <div class="container">
+ 61
+ 62         <!-- Begin Logo -->
+ 63         <div class="navbar-brand" href="/">
+ 64                 <h4><a href="/index.html">Dai Ho</a></h4>
+ 65         <!--<img src="/assets/images/logo.png" alt="Rob Raddi">-->
+ 66         </div>
+ 67         <!-- End Logo -->
+ 68
+ 69         <!-- Begin Menu -->
+ 70         <div class="collapse navbar-collapse" id="navbarsWow">
+ 71
+ 72             <!-- Begin Menu -->
+ 73             <ul class="navbar-nav ml-auto">
+ 74                 <!--
+ 75                 <li class="nav-item">
+ 76                     <a class="nav-link" href="/about">About</a>
+ 77                 </li>
+ 78                 -->
+ 79                 <li class="nav-item dropdown">
+ 80                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+ 81                     <div class="dropdown-menu" aria-labelledby="dropdown01">
+ 82                     <a class="nav-link" href="/">Projects</a>
+ 83                     <a class="nav-link" href="/">Publications</a>
+ 84                     </div>
+ 85                 </li>
+ 86
+ 87                 <li class="nav-item">
+ 88                     <a class="nav-link" href="/teaching.html">Teaching</a>
+ 89                 </li>
+ 90
+ 91                 <li class="nav-item dropdown">
+ 92                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APS march meeting slides</a>
+ 93                     <div class="dropdown-menu" aria-labelledby="dropdown01">
+ 94                     <a class="nav-link" href="https://biceps.readthedocs.io/en/latest/" target="_blank">APS 2024</a>
+ 95                     <a class="nav-link" href="/SymPyVolume/index.html" target="_blank">APS 2023</a>
+ 96                     <a class="nav-link" href="/Weather.html" target="_blank">APS 2022</a>
+ 97                     </div>
+ 98                 </li>
+ 99
+100                 <li class="nav-item">
+101                     <a class="nav-link" href="/posts_and_slides.html">Posts/Slides</a>
+102                 </li>
+103                 <!--<li class="nav-item">
+104                     <a class="nav-link" href="/about.html">About</a>
+105                 </li>-->
+106                 <li class="nav-item">
+107                     <a target="_blank" class="nav-link" href="https://github.com/JulieNguyen363">Github</a>
+108                 </li>
+109
+110
+111
+112             </ul>
+113             <!-- End Menu -->
+114
+115         </div>
+116     </div>
+117 </header>
+118
+119
+120
+121 <!-- End Menu Navigation
+122 ================================================== -->
+123
+124 <div class="site-content">
+125
+126     <div class="container">
+127
+128     <!-- Site Title
+129     ================================================== -->
+130
+131     <div class="mainheading" style="display:none;">
+132         <h1 class="sitetitle">Dai Ho</h1>
+133         <p class="lead">
+134              Pages to view my work.
+135         </p>
+136     </div>
+137
+138
+139     <!-- Content
+140     ================================================== -->
+141     <div class="main-content">
+142         <!-- Home Jumbotron
+143 ================================================== -->
+144 <section class="intro full-width">
+145     <style>
+146     .wrapintro{
+147             text-align: justify;
+148     }
+149     </style>
+150     <div class="wrapintro">
+151         <!--<h1>Dai Ho</h1>-->
+152         <!--<h2 class="lead">Header</h2>-->
+153         <p style="text-align:justify;font-size:100%;">
+154             <figure>
+155                 <img src="/assets/images/DSCF1976.JPG" height="20%" width="20%" align="left" hspace="10px">
+156             </figure>
+157             I'm a biohysicist.... Currently, I work in the
+158             <a href="http://www.voelzlab.org">Voelz Lab</a> as a graduate research
+159             assistant in pursuit of obtaining a Ph.D. in Theoretical/Physical Chemistry from
+160             <a href="https://chem.cst.temple.edu">Temple University</a>.
+161         </p>
+162     </div>
+163 </section>
+164
+165
+166 <!--
+167 <div class="section-title h2">Reseach:</div>
+168 <div class="wrapintro1">
+169
+170     <h3> Confrences: </h3>
+171     <ul>
+172         <li style="list-style-type: none;"><h5> Poster sessions:</h5></li>
+173         <ul>
+174             <li style="list-style-type: none;"> - Annual Biophysical Society meeting 2018</li>
+175             <li style="list-style-type: none;"> - American Chemical Society 2018</li>
+176             <li style="list-style-type: none;"> - Poster session - Annual Biophysical Society meeting 2020</li>
+177             <li style="list-style-type: none;"> - American Chemical Society 2020</li>
+178         </ul>
+179         <li style="list-style-type: none;"><h5>Talks:</h5></li>
+180     </ul>
+181 </div>
+ 70         <div class="collapse navbar-collapse" id="navbarsWow">
+ 89                 </li>
+ 90
+ 91                 <li class="nav-item dropdown">
+ 92                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">conferences</a>
+ 93                     <div class="dropdown-menu" aria-labelledby="dropdown01">
+ 94                     <a class="nav-link" href="https://biceps.readthedocs.io/en/latest/" target="_blank">APS 2024</a>
+ 95                     <a class="nav-link" href="/SymPyVolume/index.html" target="_blank">APS 2023</a>
+ 96                     <a class="nav-link" href="/Weather.html" target="_blank">APS 2022</a>
+ 97                     </div>
+ 98                 </li>
+ 99
+100                 <li class="nav-item">
+101                     <a class="nav-link" href="/posts_and_slides.html">Posts/Slides</a>
+102                 </li>
+103                 <!--<li class="nav-item">
+150     <div class="wrapintro">
+151         <!--<h1>Dai Ho</h1>-->
+152         <!--<h2 class="lead">Header</h2>-->
+153         <p style="text-align:justify;font-size:100%;">
+154             <figure>
+155                 <img src="/assets/images/DSCF1976.JPG" height="20%" width="20%" align="left" hspace="10px">
+156             </figure>
+157             I'm a biohysicist.... Currently, I work in the
+158             <a href="http://www.voelzlab.org">Voelz Lab</a> as a graduate research
+159             assistant in pursuit of obtaining a Ph.D. in Theoretical/Physical Chemistry from
+160             <a href="https://chem.cst.temple.edu">Temple University</a>.
+161         </p>
+162     </div>
+163 </section>
+164
+165
+166 <!--
+167 <div class="section-title h2">Reseach:</div>
+168 <div class="wrapintro1">
+169
+170     <h3> Confrences: </h3>
+171     <ul>
+172         <li style="list-style-type: none;"><h5> Poster sessions:</h5></li>
+173         <ul>
+174             <li style="list-style-type: none;"> - Annual Biophysical Society meeting 2018</li>
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202     </div>
+203
+204     </div><!-- /.container -->
+205
+206
+207
+208     <!-- Before Footer
+209     ================================================== -->
+210     <div class="beforefooter">
+211         <div class="container">
+212             <div class="row justify-content-center">
+213                 <!--
+214                 <div class="col-md-8">Hello</div>
+253                         <!--<h5 class="title"></h5>-->
+254                 <h5 class="title">Contact Info:</h5>
+261                 </div>
+262                 </div>
+263
+264                 <div class="col-sm-4">
+265                 <div class="footer-widget">
+268                 <p style="text-align:left;font-size:100%;">
+269                 <ul>
+270                         <li><a href="/resume.html" target="_blank">Resume</a></li>
+271                         <!--<li><a href="/notes.html" target="_blank">Notes</a></li>-->
+272                 </ul>
+273                     <br>
+274                 </div>
+275                 </div>
+276
+277                 <!--
+278                 <div class="col-sm-3">
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+-rw-r--r--   1 nguyendung  staff    455 Mar 11 17:25 README.md
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % rm README.md
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 96
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 96
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % cd index.html
+cd: not a directory: index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % vi index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % cd assets/images
+(base) nguyendung@Nguyens-MacBook-Pro images % ls
+total 191112
+-rw-r--r--  1 nguyendung  staff     63100 Mar 11 17:25 ACS.jpg
+-rw-r--r--@ 1 nguyendung  staff  92702418 Mar 11 17:25 DSCF0309.png
+-rw-r--r--  1 nguyendung  staff   2771995 Mar 11 17:25 GuyAllen_2019.jpg
+-rwxr-xr-x  1 nguyendung  staff    239441 Mar 11 17:25 Pratip_BDAY_2019.jpg
+-rw-r--r--  1 nguyendung  staff     60961 Mar 11 17:25 THE.jpg
+-rw-r--r--  1 nguyendung  staff    191309 Mar 11 17:25 background_image
+  1 <!DOCTYPE html>
+-rw-r--r--  1 nguyendung  staff    619442 Mar 11 17:25 eigenspikers_03_07_2019.jpg
+-rw-r--r--  1 nguyendung  staff   1173302 Mar 11 17:25 ethics_2019.jpg
+-rw-r--r--  1 nguyendung  staff         0 Mar 11 17:25 favicon.ico
+-rw-r--r--@ 1 nguyendung  staff         1 Mar 11 17:25 head.jpg
+-rw-r--r--@ 1 nguyendung  staff      1831 Mar 11 17:25 logo-footer.png
+-rw-r--r--@ 1 nguyendung  staff         1 Mar 11 17:25 logo.png
+(base) nguyendung@Nguyens-MacBook-Pro images % cd ../..
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 96
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11619 Mar 11 17:34 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % vi index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git add .
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git commit -m 'small change'
+[main 3d7eadf] small change
+ Committer: Nguyen Dung <nguyendung@bc-d0-74-2b-cb-f6.wireless.temple.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 6 insertions(+), 27 deletions(-)
+ delete mode 100644 README.md
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 386 bytes | 386.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/JulieNguyen363/julienguyen363.github.io.git
+   86b1446..3d7eadf  main -> main
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 96
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % vi index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % mv index.html index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 96
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % vi index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff    244 Mar 11 17:45 index.html
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff    244 Mar 11 17:45 index.html
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff    244 Mar 11 17:45 index.html
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git add .
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git commit -m 'small change'
+[main 43d5587] small change
+ Committer: Nguyen Dung <nguyendung@bc-d0-74-2b-cb-f6.wireless.temple.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 12 insertions(+), 329 deletions(-)
+ rewrite index.html (99%)
+ copy index.html => index_.html (100%)
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 528 bytes | 528.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JulieNguyen363/julienguyen363.github.io.git
+   3d7eadf..43d5587  main -> main
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff    244 Mar 11 17:45 index.html
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % cd ..
+(base) nguyendung@Nguyens-MacBook-Pro git % ls
+total 0
+drwxr-xr-x  10 nguyendung  staff   320 Nov 13 17:12 GABARAP
+drwxr-xr-x  11 nguyendung  staff   352 Mar 11 16:48 Julienguyen
+drwxr-xr-x  31 nguyendung  staff   992 Nov 13 17:12 ParmEd
+drwxr-xr-x   7 nguyendung  staff   224 Feb  2 00:15 biceps_peptide_Halogens
+drwxr-xr-x  93 nguyendung  staff  2976 Feb 17 14:24 codes
+drwxr-xr-x   7 nguyendung  staff   224 Mar 11 17:45 julienguyen363.github.io
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 pmx
+drwxr-xr-x  16 nguyendung  staff   512 Nov 13 17:12 prep-tools
+drwxr-xr-x  12 nguyendung  staff   384 Nov 13 17:12 pylambdaopt
+drwxr-xr-x  15 nguyendung  staff   480 Nov 13 17:12 sampl9-voelzlab
+(base) nguyendung@Nguyens-MacBook-Pro git % vi Julienguyen
+(base) nguyendung@Nguyens-MacBook-Pro git % vi julienguyen363.github.io
+(base) nguyendung@Nguyens-MacBook-Pro git % cd julienguyen363.github.io
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 104
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff    244 Mar 11 17:45 index.html
+-rw-r--r--   1 nguyendung  staff  11354 Mar 11 17:39 index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % rm index_.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % ls
+total 80
+-rw-r--r--   1 nguyendung  staff  35149 Mar 11 17:25 LICENSE
+drwxr-xr-x  16 nguyendung  staff    512 Mar 11 17:25 assets
+-rw-r--r--   1 nguyendung  staff    244 Mar 11 17:45 index.html
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git add .
+(base) nguyendung@Nguyens-MacBook-Pro julienguyen363.github.io % git commit -m 'small change'
+[main 13be7c7] small change
+  1 <!DOCTYPE html>
+  2 <html lang="en">
+  3 <head>
+  4 <meta charset="utf-8">
+  5 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  6 <link rel="icon" href="/assets/images/favicon.png">
+  7 <title>Dai Q. Ho | Dai Ho</title>
+  8 <!-- Begin Jekyll SEO tag v2.8.0 -->
+  9 <title>Dai Q. Ho | Dai Ho</title>
+ 10 <meta name="generator" content="Jekyll v3.9.2" />
+ 11 <meta property="og:title" content="Dai Q. Ho" />
+ 12 <meta property="og:locale" content="en_US" />
+ 13 <meta name="description" content="Pages to view my work." />
+ 14 <meta property="og:description" content="Pages to view my work." />
+ 15 <link rel="canonical" href="https://JulieNguyen363.github.io/" />
+ 16 <meta property="og:url" content="https://JulieNguyen363.github.io/" />
+ 17 <meta property="og:site_name" content="Dai Ho" />
+ 18 <meta property="og:type" content="website" />
+ 19 <meta name="twitter:card" content="summary" />
+ 20 <meta property="twitter:title" content="Dai Ho" />
+ 21 <script type="application/ld+json">
+ 22 {"@context":"https://schema.org","@type":"WebSite","description":"Pages to view my work.","headline":"Dai Ho","name":"Dai Ho","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"ht    tps://Julienguyen363.github.io/assets/images/DSCF1976.JPG"}},"url":"https://julienguyen363.github.io/"}</script>
+ 23 <!-- End Jekyll SEO tag -->
+ 24
+ 25 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorig    in="anonymous">
+ 26 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 27 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+ 28 <link href="/assets/css/theme.css" rel="stylesheet">
+ 29 <link href="/assets/css/custom.css" rel="stylesheet">
+ 30
+ 31
+ 32
+ 33
+ 34 <!-- Google Analytics -->
+ 35 <script>
+ 36   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 37   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 38   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 39   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 40
+ 41   ga('create', 'UA-143385454-1', 'auto');
+ 42   ga('send', 'pageview');
+ 43 </script>
+ 44
+ 45
+ 46 </head>
+ 47
+ 48
+ 49
+ 50
+ 51 <body class="layout-default">
+"index.html" 334L, 11614B
